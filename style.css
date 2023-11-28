@@ -1,0 +1,91 @@
+h1 {
+	color: #780000;
+	font-size: 30px;
+	font-family: Arial;serif
+}
+
+
+h2 {font-size: 25px}
+
+
+#chapo {
+	text-align: center;
+}
+
+
+body {
+	color: #080A0D;
+	background-color: white;
+	font-size: 16px;
+	font-family: 'Libre Franklin', sans-serif;
+	text-align: left;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+
+#logo{
+	width:50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+
+.article_picture{
+	width: 500px;
+	box-shadow: 20px 20px 30px lightgrey;
+}
+
+
+.center {
+	text-align: center;
+}
+
+
+#red {
+	color: red;
+}
+
+
+.profile_container {
+	display: flex;
+	align-items: center;
+	padding: 20px;
+}
+
+@media (max-width: 540px) {
+	#logo {
+		width: 30px;
+	}
+}
+
+
+@media (max-width: 540px) {
+	.article_picture {
+		width: 300px;
+		text-align: center;
+	}
+}
+
+
+
+@media(max-width: 540px) {
+	h1 {
+		font-size: 25px;
+	}
+}
+
+
+@media (max-width: 540px) {
+	#chapo {
+		font-size: 18px;
+	}
+}
+
+
+@media (max-width:540px) {
+	.paragraph {
+		font-size: 14px;
+	}
+
+}
